@@ -8,6 +8,10 @@ body {
     color: #242424;
     text-decoration: none;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
   
   em {
     color: #a5b4fc;
@@ -38,4 +42,19 @@ body {
   .cta {
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
+    border-radius: 50px;
+  }
+
+  .cta:hover{
+    text-decoration: none;
+    background: linear-gradient(#696484, #8788ba);
+  }
+
+  .about{
+    border-bottom: 1px solid #8e86b5;
+    border-right: 1px solid #8e86b5;
+  }
+
+  .lien_icone:hover{
+    opacity: 0.5;
   }
